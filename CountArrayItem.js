@@ -3,10 +3,11 @@ function count(numbers){
    let count=0;
    let find =5;
     for(const number of numbers){
-        if(number===find){
-            count++
+        // for(let i =0;i<numbers.lenght;i++){count++}
+            count++;
         }
     }return count;
 }
 const countNumber = count(numbers);
 console.log(countNumber);
+
